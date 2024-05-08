@@ -30,6 +30,6 @@ jobs:
       run: |
         # Add your testing commands here
 
-    - name: Clean up
-      run: |
-        docker-compose down
+    # - name: Clean up
+    #   run: |
+    #     docker-compose down
