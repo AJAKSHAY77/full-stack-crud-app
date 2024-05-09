@@ -21,8 +21,8 @@ spec:
       labels:
         role: backend
     spec:
-      imagePullSecrets:
-      - name: ecr-registry-secret
+      # imagePullSecrets:
+      # - name: ecr-registry-secret
       containers:
       - name: backend
         image: public.ecr.aws/l1u7n5d4/employee-backend:latest
